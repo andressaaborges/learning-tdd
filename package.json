@@ -1,0 +1,24 @@
+{
+  "name": "learning-tdd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "babel src -d app --source-maps",
+    "watch": "babel src -d app --source-maps --watch"
+  },
+  "keywords": [],
+  "author": "Émylle Andressa Borges de Lima",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.18.9"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.9",
+    "@babel/plugin-transform-arrow-functions": "^7.18.6",
+    "@babel/preset-env": "^7.18.9",
+    "babel-jest": "^28.1.3",
+    "jest": "^28.1.3"
+  }
+}
