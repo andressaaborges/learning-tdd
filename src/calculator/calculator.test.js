@@ -41,4 +41,9 @@ describe('Tests for mul() function', () => {
         const result = mul(4, 6);
         expect(result).toBe(24);
     });
+
+    test('multiplying 20 * 10 is equal 200', () => {
+        const result = mul(20, 10);
+        expect(result).toBe(200);
+    });
 });
