@@ -24,3 +24,9 @@ describe('Tests for div() function', () => {
     });
 });
 
+describe('Tests for sub() function', () => {
+    test('subtract 20 - 9 is equal 11', () => {
+        const result = sub(20, 9);
+        expect(result).toBe(11);
+    });
+});
