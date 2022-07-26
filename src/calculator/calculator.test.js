@@ -29,4 +29,9 @@ describe('Tests for sub() function', () => {
         const result = sub(20, 9);
         expect(result).toBe(11);
     });
+
+    test('subtract 17 - 87 is equal -70', () => {
+        const result = sub(17, 87);
+        expect(result).toBe(-70);
+    });
 });
