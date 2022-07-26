@@ -1,4 +1,4 @@
-import sum from './sum';
+import { sum, div } from './calculator';
 
 describe('Tests for sum() function', () => {
     test('adds 1 + 2 to equal 3', () => {
@@ -17,5 +17,5 @@ describe('Tests for div() function', () => {
         const result = div(4, 4);
         expect(result).toBe(1);
     });
-})
+});
 
