@@ -17,5 +17,10 @@ describe('Tests for div() function', () => {
         const result = div(4, 4);
         expect(result).toBe(1);
     });
+
+    test('divide 1/10 is equal to 0.1', () => {
+        const result = div(1, 10);
+        expect(result).toBe(0.1);
+    });
 });
 
