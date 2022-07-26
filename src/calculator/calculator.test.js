@@ -1,4 +1,4 @@
-import { sum, div } from './calculator';
+import { sum, div, sub } from './calculator';
 
 describe('Tests for sum() function', () => {
     test('adds 1 + 2 to equal 3', () => {
