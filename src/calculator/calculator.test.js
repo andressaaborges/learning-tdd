@@ -35,3 +35,10 @@ describe('Tests for sub() function', () => {
         expect(result).toBe(-70);
     });
 });
+
+describe('Tests for mul() function', () => {
+    test('multiplying 4 * 6 is equal 24', () => {
+        const result = mul(4, 6);
+        expect(result).toBe(24);
+    });
+});
