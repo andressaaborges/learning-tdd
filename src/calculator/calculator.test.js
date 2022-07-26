@@ -12,3 +12,10 @@ describe('Tests for sum() function', () => {
     });
 });
 
+describe('Tests for div() function', () => {
+    test('divide 4/4 is equal to 1', () => {
+        const result = div(4, 4);
+        expect(result).toBe(1);
+    });
+})
+
