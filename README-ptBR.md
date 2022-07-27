@@ -37,7 +37,7 @@
     🔎 Ok, mas quais são as funcionalidades deste código?
 </h3>
 <p>
-    O projeto possui um arquivo que é uma calculadora com 4 funções: adicionar, subtrair, dividir and multiplicar. Todas estas funções recebem dois números como parâmetros e retorna o resulta da operação com estes números.
+    O projeto possui um arquivo que é uma calculadora com 4 funções: adicionar, subtrair, dividir e multiplicar. Todas estas funções recebem dois números como parâmetros e retorna o resulta da operação com estes números.
     Veja:
 </p>
 
