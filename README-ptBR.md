@@ -88,7 +88,7 @@ git clone https://github.com/andressaaborges/learning-tdd.git
 ```shell
 npm i
 ```
-or:
+ou:
 
 ```shell
 yarn init
